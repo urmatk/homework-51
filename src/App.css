@@ -8,7 +8,6 @@
   width: 50px;
   height: 50px;
   background: #eee;
-
 }
 
 
@@ -17,6 +16,16 @@
   display: flex;
   justify-content: space-evenly;
   width: 400px;
-  margin: auto;
+  padding: 10px;
+  margin: 50px auto;
+  background: blue;
+}
 
+.btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+  background: #CF6F49;
+  border: 1px solid #CF6F49;
+  border-radius: 6px;
 }

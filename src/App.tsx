@@ -16,8 +16,7 @@ const App = () => {
                     numbers.push(randomNumber);
                 }
             }
-
-
+            numbers.sort((a, b) => a - b);
 
             setNumber(numbers);
         }
@@ -32,7 +31,7 @@ const App = () => {
                             <Ball numbers={number[4]}/>
                     </div>
                     <div>
-                            <button onClick={changeNumber}>Clic</button>
+                            <button className="btn" onClick={changeNumber}>Clic</button>
                     </div>
             </div>
         );
